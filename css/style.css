@@ -56,14 +56,28 @@ h1, h2, h3, h4, h5, h6{
 .prodimg{
     width: 350px;
     height: 250px;
-    opacity: .7;
-    border: 2px double rgb(160, 153, 153);
 }
+
 .productos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: 20px auto;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.tarjeta{
+    text-align: center;
+
+}
+
+.bombilloled{
+    width: 350px;
+    float: left;
+
 }
 
 .prodimg:hover{
