@@ -11,11 +11,14 @@ body{
 .marginheader{
     margin-top: 7rem;
 }
+
 .conteimagmarcas{
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    top: 35px;
+    top: 50px;
+    padding: 20px;
+    margin-bottom: 45px;
 }
 .logomarcas{
     width: 180px;
@@ -34,6 +37,11 @@ body{
     justify-content: space-evenly;
 }
 
+.seccion1{
+    padding: 20px;
+    background-color: rgb(247, 247, 247);
+}
+
 h1, h2, h3, h4, h5, h6{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -44,13 +52,14 @@ h1, h2, h3, h4, h5, h6{
     font-size: 2.7rem;
     letter-spacing: 2px;
     padding: 40px;
+    margin: 40px;
 }
 
 .titulo3{
     color: black;
     text-align: center;
     letter-spacing: 2px;
-    padding: 45px;
+    padding: 70px;
 }
 
 .prodimg{
@@ -62,21 +71,52 @@ h1, h2, h3, h4, h5, h6{
     width: 90%;
     height: auto;
     text-align: center;
-    margin: 20px auto;
+    margin: 30px auto;
     
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+
+    justify-content: center;
+    align-items: center;
 }
 
 .tarjeta{
     text-align: center;
-
+    margin: 40px;
 }
 
-.bombilloled{
-    width: 350px;
-    float: left;
+.titulotarjeta{
+    color:rgb(95, 94, 94);
+}
+.divlonas{
+
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: 30px auto;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+
+    justify-content: center;
+    align-items: center;
+}
+
+.divaccesorios{
+
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: 30px auto;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -93,6 +133,7 @@ h1, h2, h3, h4, h5, h6{
 .pie-pagina{
     width: 100%;
     background-color: rgb(102, 102, 102);
+    margin-top: 60px;
 }
 
 .pie-pagina .grupo-1{
