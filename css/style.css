@@ -29,7 +29,7 @@ body{
 
 .carousel-inner .carousel-item > img{
     width: 100%;
-    height: 550px;
+    height: 500px;
 }
 
 .conteimagmarcas{
@@ -37,7 +37,6 @@ body{
     justify-content: space-evenly;
     position: relative;
     padding-top: 20px;
-    
     margin-bottom: 45px;
 }
 
@@ -225,7 +224,7 @@ h1, h2, h3, h4, h5, h6{
     font-size: 0.8rem;
 }
 
-@media screen and (max-width: 667px) {
+@media  only screen and (max-width: 667px) {
     body{
         background-color: white
     }
@@ -234,6 +233,11 @@ h1, h2, h3, h4, h5, h6{
         width: 220px;
         display: flex;
         padding-left: 40px;
+    }
+
+    .carousel-inner .carousel-item > img{
+        width: 100%;
+        height: 250px;
     }
 
     .logomarcas{
