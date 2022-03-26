@@ -27,6 +27,11 @@ body{
     padding-right: 100px;
 }
 
+.carousel-inner .carousel-item > img{
+    width: 100%;
+    height: 550px;
+}
+
 .conteimagmarcas{
     display: flex;
     justify-content: space-evenly;
