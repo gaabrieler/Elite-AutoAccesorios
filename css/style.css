@@ -55,6 +55,7 @@ body{
 .contenedorcard{
     display: flex;
     justify-content: space-evenly;
+    gap: 5px;
 }
 
 .card-titulo{
@@ -264,6 +265,7 @@ h1, h2, h3, h4, h5, h6{
     .contenedorcard{
         display: grid;
         justify-content: space-evenly;
+        gap: 10px;
     }
 
     .prodimg{
