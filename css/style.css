@@ -220,7 +220,7 @@ h1, h2, h3, h4, h5, h6{
     font-size: 0.8rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 690px) {
     body{
         background-color: white
     }
