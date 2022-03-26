@@ -36,8 +36,8 @@ body{
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    top: 50px;
-    padding: 20px;
+    padding-top: 20px;
+    
     margin-bottom: 45px;
 }
 
